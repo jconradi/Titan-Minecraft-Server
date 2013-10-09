@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="MinecraftClient.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftServer.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftServerRuntime.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="ServerMain.cpp" />
+    <ClCompile Include="MinecraftPacketParser.cpp">
+      <Filter>Server\Packet</Filter>
+    </ClCompile>
+    <ClCompile Include="InputPacketStream.cpp">
+      <Filter>Server\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftServerFacade.cpp">
+      <Filter>Server</Filter>
+    </ClCompile>
+    <ClCompile Include="UserManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="OutputPacketStream.cpp">
+      <Filter>Server\Stream</Filter>
+    </ClCompile>
+    <ClCompile Include="MinecraftMap.cpp">
+      <Filter>Map</Filter>
+    </ClCompile>
+    <ClCompile Include="NBTFile.cpp">
+      <Filter>Map\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="NBTValue.cpp">
+      <Filter>Map\NBT</Filter>
+    </ClCompile>
+    <ClCompile Include="ChatManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MapManager.cpp">
+      <Filter>Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TextUtility.cpp">
+      <Filter>Text</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Server">
+      <UniqueIdentifier>{d6f0f28a-f458-4c53-8209-1ee08ae0f421}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Stream">
+      <UniqueIdentifier>{1f9b46e7-4dff-4a93-bd4e-be1e0a2cca26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Server\Packet">
+      <UniqueIdentifier>{dd839dae-a7f1-477b-9e33-796f7e7fc6d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Managers">
+      <UniqueIdentifier>{965ea2d0-7ee9-4ba1-be57-1be86a19037a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{7cfa750b-9801-4b56-a3f1-d2d6eeb06e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map">
+      <UniqueIdentifier>{4fdfe2e3-d78b-445b-b98b-dcc4dd7636c3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Map\NBT">
+      <UniqueIdentifier>{0f6ed8ee-96bf-470c-bb09-0a8c219539c1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Configuration">
+      <UniqueIdentifier>{3df206b3-e81e-42cf-a757-edfa6c8beba2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Text">
+      <UniqueIdentifier>{82077256-e844-4021-b79e-2ae8237b955f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Zlib">
+      <UniqueIdentifier>{152899d2-5552-4378-8733-bb8346fe34be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MinecraftClient.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftServer.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftServerRuntime.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftPacketParser.h">
+      <Filter>Server\Packet</Filter>
+    </ClInclude>
+    <ClInclude Include="InputPacketStream.h">
+      <Filter>Server\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftServerFacade.h">
+      <Filter>Server</Filter>
+    </ClInclude>
+    <ClInclude Include="UserManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInfo.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="OutputPacketStream.h">
+      <Filter>Server\Stream</Filter>
+    </ClInclude>
+    <ClInclude Include="KeepAliveInfo.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerLocation.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="MinecraftMap.h">
+      <Filter>Map</Filter>
+    </ClInclude>
+    <ClInclude Include="NBTValue.h">
+      <Filter>Map\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="NBTFile.h">
+      <Filter>Map\NBT</Filter>
+    </ClInclude>
+    <ClInclude Include="ChatManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MapManager.h">
+      <Filter>Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TextUtility.h">
+      <Filter>Text</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

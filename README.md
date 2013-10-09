@@ -1,0 +1,1 @@
+Simple minecraft server for an older version of the client.
